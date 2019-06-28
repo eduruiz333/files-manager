@@ -1,0 +1,42 @@
+// xs — Extra Small Screens
+@media (min-width: 320px) {
+  .attachments {
+    max-height: 442px;
+
+    .attachment {
+      margin: 0 20px 15px 0;
+    }
+  }
+}
+
+// s — Small Screens
+@media (min-width: 640px) {
+  .attachments {
+    max-height: 492px;
+
+    .attachment {
+      margin-right: 12px;
+    }
+  }
+}
+
+// m — Medium Screens
+@media (min-width: 960px) {
+  .attachments {
+    max-height: 492px;
+
+    .attachment {
+      margin-right: 15px;
+    }
+  }
+}
+
+// l — Large Screens
+@media (min-width: 1200px) {
+
+}
+
+// xl — Extra Large Screens
+@media (min-width: 1600px) {
+
+}
